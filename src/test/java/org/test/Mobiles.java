@@ -45,5 +45,7 @@ public class Mobiles {
 			
 			WebElement mobile=mobiles.get(i);
 			mobile.getText();
+			
+			System.out.println("getText");
 		}
 	}}
